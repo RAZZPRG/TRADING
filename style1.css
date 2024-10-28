@@ -1,0 +1,133 @@
+.TITULO {
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 600%;
+    text-align: center;
+    color: #3e0059;
+  }
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.navigacion {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    
+    margin: 0; 
+    background: linear-gradient(90deg, rgb(97, 12, 207) 0%, rgb(83, 4, 73) 50%, rgb(46, 41, 41)80%);
+    }
+    
+    .navigacion a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    }
+    
+    .navigacion a:hover {
+    background: #1565C0;
+    }
+    
+    @media all and (max-width: 800px) {
+    .navigacion {
+    justify-content: space-around;
+    }
+    }
+    
+    @media all and (max-width: 600px) {
+    .navigacion {
+    flex-flow: column wrap;
+    padding: 0;
+    }
+    .navigacion a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 0px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 0px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigacion li:last-of-type a {
+    border-bottom: none;
+    }
+    }
+
+    .separador1{
+        background: linear-gradient(90deg, rgb(97, 12, 207) 0%, rgb(83, 4, 73) 50%, rgb(46, 41, 41)80%);
+        display: flex;
+        padding: 10px;
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #011832;
+    }
+    .separador2{
+        background: linear-gradient(90deg, rgb(97, 12, 207) 0%, rgb(83, 4, 73) 50%, rgb(46, 41, 41)80%);
+        display: flex;
+        padding: 10px;
+    }
+    .container1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .imagen1{
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 400px;
+        box-shadow: 5px 7px 15px#3e0059 ;
+        border-radius: 8px;
+    }
+    .parrafo1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .video {
+        display: flex; /* Utiliza flexbox para centrar */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente (si es necesario) */
+        height: 100vh; /* Opcional: altura del contenedor */
+    }
+    
+    video {
+        max-width: 80%; /* Asegura que el video no exceda el ancho del contenedor */
+        height: auto; /* Mantiene la proporción del video */
+        border: 5px solid #3e0059;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 1000px;
+        box-shadow: 5px 7px 15px#3e0059 ;
+        border-radius: 8px;
+    }
+    .separador3{
+        background: linear-gradient(90deg, rgb(97, 12, 207) 0%, rgb(83, 4, 73) 50%, rgb(46, 41, 41)80%);
+        display: flex;
+        padding: 10px;
+    }
+    .imagen2{
+        float: right;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 600px;
+        box-shadow: 5px 7px 15px#3e0059 ;
+        border-radius: 8px;
+}
+        .TITULO2{
+        font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+        font-size: 400%;
+        text-align: center;
+        color: #3e0059;
+    }
+    .m{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25;
+        color: #3e0059;
+    }
+    li{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .n{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }

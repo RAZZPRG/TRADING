@@ -1,0 +1,72 @@
+.navigacion {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    
+    margin: 0; 
+    background: rgb(140, 0, 255);
+    }
+    
+    .navigacion a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    }
+    
+    .navigacion a:hover {
+    background: #1565C0;
+    }
+    
+    @media all and (max-width: 800px) {
+    .navigacion {
+    justify-content: space-around;
+    }
+    }
+    
+    @media all and (max-width: 600px) {
+    .navigacion {
+    flex-flow: column wrap;
+    padding: 0;
+    }
+    .navigacion a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 0px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 0px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigacion li:last-of-type a {
+    border-bottom: none;
+    }
+    }
+    
+     .TITULO{
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    text-align: center;
+    color: #3e0059;
+}
+.herramientas{
+    width: 100%;
+}
+    .trading{
+        
+        font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+        font-size: 400%;
+        color: #3e0059;
+        text-align: center; 
+    }
+    .meta{
+        text-align: center;
+        font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+        font-size: 400%;
+        color: #3e0059;
+    }
+    .calculadora{
+        text-align: center; 
+        font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+        font-size: 400%;
+        color: #3e0059;
+    }
